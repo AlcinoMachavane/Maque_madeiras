@@ -1,0 +1,279 @@
+@charset "UTF_8";
+
+
+/**/
+
+dialog::backdrop{
+    /*background-color: #161616;*/
+    background-image: url("../../assets/images/ryan-schram-dtwk6OYNsL4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(100px);
+}
+
+.popUp-conteiner {
+    justify-content: center;
+    margin: auto;
+    top: 70px;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+    background: transparent;
+    box-shadow: 5px 5px 20px black;
+    transition: 1s ease-in-out;
+}
+
+.popUp-conteiner form.popUp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 340px;
+    height: auto;
+    backdrop-filter: blur(15px);
+}
+
+.popUp-conteiner form.popUp h1 {
+    /*color: #754c24;*/
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    font-weight: normal;
+    padding: 5px 0;
+    flex-basis: 100%;
+}
+
+.popUp-conteiner form.popUp h1 .fa-xmark{
+    position: absolute;
+    flex-basis: 10%;
+    color: #754c24;
+    font-size: 14pt;
+    right: 20px;
+}
+
+.popUp-conteiner form.popUp h1 .fa-xmark:hover{
+    color: rgba(255, 0, 0, 0.80);
+}
+
+.popUp-conteiner form.popUp .lbl-inp {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 10pt;
+    /*background-color: gold;*/
+    /*border: 1px solid orangered;*/
+}
+
+.popUp-conteiner form.popUp .lbl-inp label{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0 20px;
+    color: black;
+    flex-basis: 100%;
+}
+
+.popUp-conteiner form.popUp .lbl-inp .arange{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+.popUp-conteiner form.popUp .lbl-inp .arange input{
+    display: flex;
+    flex-basis: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 20px 10px 20px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.popUp-conteiner form.popUp .lbl-inp .arange textarea{
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px 20px 10px 20px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+
+form.popUp .lbl-inp input.btn-sucess {
+    background-image: linear-gradient(to right, #42210b, black, #754c24, black);
+    color: white;
+    font-size: 14pt;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 5px!important;
+    /*font-weight: bold;*/
+    border: none;
+    background-size: 150%;
+    transition: .5s ease-in-out;
+    box-shadow: 0 2px 2px rgba(22, 22, 22, 0.63);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+form.popUp .lbl-inp input.btn-sucess:hover {
+    background-position: right;
+    color: white;
+}
+
+.foot {
+
+    background-color: #161616;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foot .article {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 40px;
+}
+
+
+.subscribe .subscribe-sec .subscribe-sec-div > article > h2 {
+    justify-content: center;
+}
+
+.subscribe .subscribe-sec .subscribe-sec-div > article > p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.foot .article .foot-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.foot .article .menu, .contact {
+    display: flex;
+    flex-basis: 25%;
+}
+
+.foot .article .menu {
+    display: flex;
+    flex-basis: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.foot .article .menu ul {
+    display: flex;
+    flex-basis: calc(33.333333% - 60px);
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.foot .article .menu ul li {
+    color: dimgray;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.foot .article .menu > ul > li > h2 {
+    padding-bottom: 10px;
+}
+
+.foot .article .menu > ul > li > a {
+    display: flex;
+    flex-basis: 100%;
+    color: dimgray;
+    margin: 0 auto;
+    justify-content: flex-start;
+    line-height: 30px;
+    /*border: 1px solid white;*/
+}
+
+.foot .article .menu ul li a:hover {
+    text-decoration: underline #754c24;
+    transition-duration: .2s;
+}
+
+.foot .article .contact {
+    display: flex;
+    flex-basis: 20%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /*background-color: #ff253a;*/
+}
+
+.foot .contact a {
+    display: flex;
+    flex-basis: 33.33333%;
+    align-items: flex-start;
+    line-height: 45px;
+    justify-content: flex-start;
+}
+
+.foot .contact a:hover {
+    transition-duration: .1s;
+    color: #754c24;
+}
+
+.foot .contact a i {
+    align-items: center;
+    margin: 0 auto;
+    font-size: 20pt;
+    justify-content: center;
+    padding: 5px;
+    /* border: 2px solid dimgray; */
+    border-radius: 50%;
+    color: dimgray;
+    transition: .1s;
+}
+
+/* #98C1D9 */
+
+.foot .contact a .fa-facebook:hover {
+    color: #106AFF;
+    translate: -1px -1px;
+}
+
+.foot .contact a .fa-instagram:hover {
+    color: #CC3685;
+    translate: -1px -1px;
+}
+
+.foot .contact a .fa-whatsapp:hover {
+    color: #08D95B;
+    translate: -1px -1px;
+}
+
+.foot .article .guizo {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.foot .article > p {
+    display: flex;
+    flex-basis: 100%;
+    text-align: center;
+    color: dimgray;
+    font-weight: lighter;
+    justify-content: center;
+    border-top: .5px solid dimgray;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    font-size: 11pt;
+}
+
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/

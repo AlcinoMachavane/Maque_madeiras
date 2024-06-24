@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.main{
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.main > .mainContent > article > h3{
+padding: 20px 0;
+}

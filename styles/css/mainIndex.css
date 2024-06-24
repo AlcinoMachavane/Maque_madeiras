@@ -1,0 +1,333 @@
+@charset "UTF-8";
+body{
+display: flex;
+flex-basis: 100%;
+flex-wrap: wrap;
+}
+
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    /* background-color: burlywood; */
+}
+
+.main .about {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main .main-header > p {
+    display: flex;
+    flex-basis: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+.main .main-title {
+    color: #161616;
+    margin-bottom: .2em;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.main .main-title i {
+    font-size: 14pt;
+}
+
+.main .main-header p {
+    line-height: 2em;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.main .article-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.main .article-content a {
+    padding-bottom: 40px;
+    max-width: 600px;
+}
+
+.main .article-content article {
+    flex-basis: calc(100% - 20px);
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.main .article-content article h2 {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.service .service-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.service .service-content h1 {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 40px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.service .service-content a {
+    display: flex;
+    /* flex-basis: calc(50% - 80px); */
+    flex-basis: 100%;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 800px;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    color: black;
+    border: 1px solid rgba(151, 172, 193, 0.15);
+    box-shadow: 1px 1px 1px rgba(151, 172, 193, 0.15);
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+
+.service .service-content a:hover {
+    translate: 0 -3px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service .service-content article .ico-h2 {
+    display: flex;
+    flex-basis: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 3px;
+    justify-content: center;
+}
+
+.service .service-content article .ico-h2 h2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.service .service-content article .ico-h2 h2 i {
+    font-size: 22pt;
+    color: #754c24;
+    padding-right: 10px;
+}
+
+.service .service-content article span {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    max-width: 64px;
+}
+
+.service .service-content article h2 {
+    display: flex;
+    flex-basis: 80%;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+}
+
+.service .service-content article p {
+    display: flex;
+    flex-basis: 100%;
+    cursor: pointer;
+    line-height: 1.6em;
+}
+
+.about2 .about2-limit {
+    display: flex;
+    flex-basis: 100%;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about2 .about2-limit .article-content {
+    display: flex;
+    flex-basis: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.about2 .main-header {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+}
+
+.about2 .main-header .main-title {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+.about2 .article-content a {
+    display: flex;
+    flex-basis: 100%;
+    border: 1px solid rgba(151, 172, 193, 0.15);
+    box-shadow: 1px 1px 1px rgba(151, 172, 193, 0.15);
+    border-radius: 10px;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 1s;
+    text-align: center;
+    justify-content: center;
+}
+
+.about2 .article-content a:hover {
+    backdrop-filter: blur(50px);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.about2 .article-content article h2 {
+    display: flex;
+    flex-basis: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 380px;
+    color: #42210b;
+}
+
+.about2 .article-content article p {
+    color: #161616;
+    display: flex;
+    flex-basis: 100%;
+}
+
+
+.partner{
+display: flex;
+flex-basis: 100%;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+background-color: whitesmoke;
+padding: 80px 0;
+
+}
+
+.partner > h1{
+display: flex;
+flex-basis: 100%;
+justify-content: center;
+padding-bottom: 10px;
+border-bottom: 1px solid rgba(211, 211, 211, 0.83);
+}
+
+.faq {
+    width: 100%;
+    margin: 100px auto;
+    padding-bottom: 40px;
+    /* background-color: pink; */
+}
+
+.faq .faq-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.faq .faq-content h1 {
+    display: flex;
+    flex-basis: 100%;
+    /* margin: 80px auto; */
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.83);
+}
+
+.faq .faq-content .faq-content-info {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.faq .faq-article-content {
+    display: flex;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+.faq .faq-article-content article > p {
+    margin: 0 auto;
+    line-height: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.faq-content > .faq-content-info > .faq-article-content > article > div > h2{
+padding: 20px 0;
+text-align: start;
+}
+
+.faq-content > .faq-content-info > .faq-article-content > article > div{
+border-radius: 10px 10px 0 0;
+padding: 10px;
+height: 80px;
+overflow: hidden;
+box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.062);
+}
+
+.faq-content > .faq-content-info > .faq-article-content > article > div#firstFaq{
+box-shadow: none;
+}
+
+.faq-content > .faq-content-info > .faq-article-content > article > div:hover{
+height: 150px;
+}
+
+.faq-content > .faq-content-info > .faq-article-content > article > div > p{
+/* background-color: goldenrod; */
+text-align: start;
+}

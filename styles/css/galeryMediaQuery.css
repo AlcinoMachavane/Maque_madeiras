@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@media (max-width: 1150px) {
+   .main {
+   display: none;
+   }
+
+   .mainForMobile{
+   display: flex;
+   }
+}
+
+@media (max-width: 750px) {
+
+    .mainForMobile > .img{
+
+        width: 500px;
+        height: 500px;
+        max-width: 500px;
+        max-height: 500px;
+        
+    }
+
+    .textForImageMobile{
+
+        max-width: 500px;
+
+    }
+
+}
+
+@media (max-width: 535px){
+
+.mainForMobile > .img{
+
+        width: 350px;
+        height: 350px;
+        max-width: 350px;
+        max-height: 350px;
+        
+    }
+
+    .textForImageMobile{
+
+        max-width: 350px;
+        height: 500px;
+
+    }
+
+}
+
+@media (max-width: 370px){
+
+.mainForMobile > .img{
+
+        width: 280px;
+        height: 280px;
+        max-width: 280px;
+        max-height: 280px;
+        
+    }
+
+    .textForImageMobile{
+
+        max-width: 280px;
+        height: 600px;
+
+    }
+
+}
