@@ -181,7 +181,7 @@ form.popUp .lbl-inp input.btn-sucess:hover {
 }
 
 .foot .article .menu ul li {
-    color: dimgray;
+    color: white;
     display: flex;
     flex-basis: 100%;
 }
@@ -193,7 +193,7 @@ form.popUp .lbl-inp input.btn-sucess:hover {
 .foot .article .menu > ul > li > a {
     display: flex;
     flex-basis: 100%;
-    color: dimgray;
+    color: white;
     margin: 0 auto;
     justify-content: flex-start;
     line-height: 30px;
@@ -235,7 +235,7 @@ form.popUp .lbl-inp input.btn-sucess:hover {
     padding: 5px;
     /* border: 2px solid dimgray; */
     border-radius: 50%;
-    color: dimgray;
+    color: white;
     transition: .1s;
 }
 
@@ -265,7 +265,7 @@ form.popUp .lbl-inp input.btn-sucess:hover {
     display: flex;
     flex-basis: 100%;
     text-align: center;
-    color: dimgray;
+    color: white;
     font-weight: lighter;
     justify-content: center;
     border-top: .5px solid dimgray;
