@@ -30,6 +30,7 @@ border-radius: 10px;
 margin:  20px;
 transition: 1s ease-in-out;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+background-color: #161616;
 }
 
 
@@ -37,17 +38,16 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 .main > #n2{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0001.jpg);}
 .main > #n3{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0002.jpg);}
 .main > #n4{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0003.jpg);}
-.main > #n5{background-image: url(../../assets/images/newFord/stars.jpeg);}
-.main > #n6{background-image: url(../../assets/images/newFord/bulding.jpeg);}
-.main > #n7{background-image: url(../../assets/images/newFord/wallPathern.jpeg);}
+
+
+.main > #n5{background-image: url(../../assets/images/maqueMadeiraImages/WhatsApp\ Image\ 2024-07-08\ at\ 10.45.46.jpeg);}
 
 .mainForMobile > #n1mb{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0000.jpg);}
 .mainForMobile > #n2mb{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0001.jpg);}
 .mainForMobile > #n3mb{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0002.jpg);}
 .mainForMobile > #n4mb{background-image: url(../../assets/images/maqueMadeiraImages/IMG-20240705-WA0003.jpg);}
-.mainForMobile > #n5mb{background-image: url(../../assets/images/newFord/stars.jpeg);}
-.mainForMobile > #n6mb{background-image: url(../../assets/images/newFord/bulding.jpeg);}
-.mainForMobile > #n7mb{background-image: url(../../assets/images/newFord/wallPathern.jpeg);}
+
+.mainForMobile > #n5mb{background-image: url(../../assets/images/maqueMadeiraImages/WhatsApp\ Image\ 2024-07-08\ at\ 10.45.46.jpeg);}
 
 .main > span:hover{
 
